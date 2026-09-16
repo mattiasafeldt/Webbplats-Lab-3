@@ -56,4 +56,22 @@ header img {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    border-radius: 6px;
+}
+.intro {
+    padding: 25px 20px;
+    background-color: #F5F1E8;
+    text-align: center;
+}
+.intro h2 {
+    margin: 0 0 11px;
+    font-size: 24px;
+}
+.intro p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.intro p + p {
+    margin-top: 12px;
 }

@@ -189,3 +189,84 @@ header img {
     flex-direction: column;
     gap: 10px;
 }
+/*CSS för större skärmar*/
+@media (min-width: 768px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 40px;
+        gap: 30px;
+    }
+    .top-nav {
+        margin-top: 0;
+        gap: 10px 40px;
+        font-size: 20px;
+    }
+    .hero {
+        padding: 100px 40px 50px;
+    }
+    .hero h1 {
+        font-size: 48px;
+        max-width: 400px;
+    }
+    .hero p {
+        font-size: 20px;
+        max-width: 400px;
+    }
+    .button {
+        padding: 20px 50px;
+        font-size: 20px;
+    }
+    .intro {
+        padding: 45px;
+    }
+    .intro h2 {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    .intro p {
+        font-size: 20px;
+        max-width: 700px;
+        margin-inline: auto;
+    }
+    .intro p + p {
+        margin-top: 25px;
+    }
+    .activities {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+        padding: 40px
+    }
+    .activities h3 {
+        font-size: 32px;
+        margin: 0 0 30px;
+        grid-column: 1 / -1;
+    }
+    .card + .card {
+        margin-top: 0;
+    }
+    .card img {
+        object-fit: cover;
+        aspect-ratio: 16/9;
+    }
+    .card p {
+        align-items: left;
+    }
+    .plan {
+       display: grid;
+       grid-template-columns: repeat(3, 2fr);
+       gap: 40px;
+       align-items: center;
+       text-align: left;
+       padding: 40px;
+    }
+    .plan h5 {
+        grid-column: 1;
+        grid-row: 1;
+        font-size: 32px;
+        text-align: left;
+        margin: 0;
+    }
+}

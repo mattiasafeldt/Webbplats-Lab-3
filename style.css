@@ -9,7 +9,7 @@ header {
     padding: 20px;
 }
 header img {
-    width: 40px;
+    width: 50px;
     height: auto;
 }
 .brand {
@@ -26,7 +26,7 @@ header img {
 .top-nav {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px 20px;
+    gap: 10px 30px;
     margin-top: 20px;
 }
 .top-nav a {
@@ -141,5 +141,51 @@ header img {
     background-color:#e9a84d
 }
 .footer {
-    background-color: #617367
+    background-color: #617367;
+    padding: 20px;
+    font-size: 14px;
+    color: white;
+}
+.footer-brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.footer-brand img {
+    width: 50px;
+    height: auto;
+}
+.footer p {
+    margin: 0 0 5px;
+}
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.footer h6 {
+    margin: 0 0 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+.footer-links {
+    display: block;
+    gap: 5px;
+    margin-bottom: 0 0 10px;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer-links ul {
+    list-style: none;
+    padding: 2px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }

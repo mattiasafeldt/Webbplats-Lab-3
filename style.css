@@ -61,6 +61,7 @@ header img {
     text-decoration: none;
     font-weight: bold;
     border-radius: 6px;
+    transition: 0.3s;
 }
 .intro {
     padding: 25px 20px;
@@ -91,6 +92,7 @@ header img {
 .card {
     background-color: white;
     border-radius: 5px;
+    border: 2px solid black;
 }
 .card + .card {
     margin-top: 20px;
@@ -132,7 +134,11 @@ header img {
     margin: 15px 20px;
     text-align: center;
     padding: 15px 20px;
-    width: 300px;
+    width: 250px;
+    transition: 0.3s;
+}
+.button:hover {
+    background-color:#e9a84d
 }
 .footer {
     background-color: #617367

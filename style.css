@@ -176,7 +176,7 @@ header img {
 .footer-links {
     display: block;
     gap: 5px;
-    margin-bottom: 0 0 10px;
+    margin-bottom: 10px;
 }
 .footer a:hover {
     text-decoration: underline;
@@ -252,7 +252,7 @@ header img {
         aspect-ratio: 16/9;
     }
     .card p {
-        align-items: left;
+        text-align: left;
     }
     .plan {
        display: grid;
@@ -285,4 +285,21 @@ header img {
         padding-top: 15px;
         font-size: 25px;
     }
-}
+    .footer {
+        display: flex;
+        align-items: flex-start;
+        gap: 40px;
+        justify-content: space-between;
+        font-size: 16px;
+        padding: 35px;
+    }
+    .footer-brand {
+        margin-bottom: 0;
+    }
+    .footer-columns {
+        gap: 60px;
+    }
+    .footer h6 {
+        font-size: 18px;
+    }
+}    

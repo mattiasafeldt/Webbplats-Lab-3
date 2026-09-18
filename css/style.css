@@ -206,6 +206,7 @@ header img {
         margin-top: 0;
         gap: 10px 40px;
         font-size: 20px;
+        margin-right: 70px;
     }
     .hero {
         padding: 100px 40px 50px;
@@ -220,7 +221,7 @@ header img {
     }
     .button {
         padding: 20px 50px;
-        font-size: 25px;
+        font-size: 20px;
     }
     .intro {
         padding: 45px;
@@ -287,7 +288,7 @@ header img {
         width: 80%;
         padding: 15px;
         padding-top: 15px;
-        font-size: 25px;
+        font-size: 20px;
     }
     .footer {
         display: flex;
@@ -295,13 +296,14 @@ header img {
         gap: 40px;
         justify-content: space-between;
         font-size: 16px;
-        padding: 35px;
+        padding: 40px;
     }
     .footer-brand {
         margin-bottom: 0;
     }
     .footer-columns {
         gap: 60px;
+        margin-right: 80px;
     }
     .footer h6 {
         font-size: 18px;
